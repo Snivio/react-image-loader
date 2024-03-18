@@ -1,8 +1,26 @@
 {
   "name": "@snivio/react-image-loader",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "description": "This Component Makes lazy loading images a breeze with both loading element and error element by taking care of loading and error handling within the element",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snivio/react-image-loader"
+  },
+  "keywords": [
+    "react-image-loader",
+    "image-loader",
+    "lazy-loading",
+    "lazy-loader",
+    "react-lazy-image-loader"
+  ],
+  "author": "Snivio Braganca <sniviobraganca5@gmail.com> (https://snivio.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snivio/react-image-loader/issues"
+  },
+  "homepage": "https://github.com/Snivio/react-image-loader#readme",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
