@@ -6,6 +6,7 @@ export const ImageLoader = forwardRef<HTMLDivElement, ImageLoaderProps>(
   ({ src, error: errorElement, loader, children, ...props }, ref) => {
     const { isLoading, error } = useImageLoadState(src);
 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const renderStringOrElement = (el: any) =>
       typeof el === "string" ? (
         <div>{el}</div>
