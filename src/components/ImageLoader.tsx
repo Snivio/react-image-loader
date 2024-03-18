@@ -1,6 +1,13 @@
 import { cloneElement, forwardRef } from "react";
-import { ImageLoaderProps } from "./ImageLoader.d";
-import { useImageLoadState } from "../../hooks";
+import { useImageLoadState } from "../hooks";
+import { ReactElement, ReactNode } from "react";
+
+export interface ImageLoaderProps {
+  src?: string;
+  loader: ReactNode;
+  error?: ReactNode;
+  children: ReactElement;
+}
 
 export const ImageLoader = forwardRef<HTMLDivElement, ImageLoaderProps>(
   ({ src, error: errorElement, loader, children, ...props }, ref) => {

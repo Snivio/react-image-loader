@@ -1,4 +1,4 @@
-import { ImageLoader } from "./components";
+import { ImageLoader } from "..";
 
 function App() {
   const src = "https://placehold.co/600x400";

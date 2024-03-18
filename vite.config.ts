@@ -6,10 +6,7 @@ import path from "path";
 export default defineConfig({
   build: {
     lib: {
-      entry: path.resolve(
-        path.join(__dirname, "src", "components"),
-        "index.ts"
-      ),
+      entry: path.resolve(__dirname, "index.ts"),
       name: "ReactImageLoader",
       fileName: (format) => `index.${format}.js`,
     },
