@@ -1,7 +1,7 @@
 {
   "name": "@snivio/react-image-loader",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This Component Makes lazy loading images a breeze with both loading element and error element by taking care of loading and error handling within the element",
   "type": "module",
   "repository": {

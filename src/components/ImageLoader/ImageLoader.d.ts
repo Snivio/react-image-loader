@@ -1,4 +1,4 @@
-import { ReactN, ReactNodeode } from "react";
+import { ReactNode } from "react";
 
 export interface ImageLoaderProps {
   src?: string;
